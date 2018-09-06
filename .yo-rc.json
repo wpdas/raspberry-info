@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Wenderson Pires",
+      "authorEmail": "wendersonpdas@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}
