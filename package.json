@@ -75,5 +75,9 @@
   "jest": {
     "testEnvironment": "node"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chart": "github:jstrace/chart",
+    "clear": "^0.1.0"
+  }
 }
