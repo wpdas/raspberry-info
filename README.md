@@ -1,6 +1,6 @@
 # raspi-info [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
-> A module that turns possible to know information about some resource from Raspberry sources.
+> A module that turns possible to know information about some resource from Raspberry sources (Linux only).
 
 ## Installation
 
