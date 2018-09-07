@@ -1,5 +1,5 @@
 {
-  "name": "raspi-info",
+  "name": "raspbarry-info",
   "version": "0.0.1",
   "description": "A module that turns possible getting information from Raspberry components such as GPU temperature and CPU temperature, etc.",
   "homepage": "",
@@ -76,8 +76,5 @@
     "testEnvironment": "node"
   },
   "license": "MIT",
-  "dependencies": {
-    "chart": "github:jstrace/chart",
-    "clear": "^0.1.0"
-  }
+  "dependencies": {}
 }
