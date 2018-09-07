@@ -1,5 +1,8 @@
 {
   "getCurrentTimeAndHost": "echo \"$(date) @ $(hostname)\"",
   "getGPUTemp": "echo \"$(/opt/vc/bin/vcgencmd measure_temp)\"",
-  "getCPUTemp": "echo $(cat /sys/class/thermal/thermal_zone0/temp)"
+  "getCPUTemp": "echo $(cat /sys/class/thermal/thermal_zone0/temp)",
+  "getSerialNumber":
+    "echo $(cat /proc/cpuinfo | grep Serial | cut -d \" \" -f 2)",
+  "getIP": "echo $(curl ipinfo.io/ip)"
 }
