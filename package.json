@@ -1,7 +1,7 @@
 {
   "name": "raspberry-info",
-  "version": "1.0.0",
-  "description": "A module that turns possible getting information from Raspberry components such as GPU temperature and CPU temperature, etc.",
+  "version": "1.0.1",
+  "description": "A module that turns possible getting information from Raspberry. Information such as GPU temperature and CPU temperature, serial number, IP and etc. (Linux only)",
   "homepage": "",
   "author": {
     "name": "Wenderson Pires",

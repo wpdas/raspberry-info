@@ -1,6 +1,6 @@
 # raspberry-info [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
-> A module that turns possible to know information about some resource from Raspberry sources (Linux only).
+> A module that turns possible getting information from Raspberry. Information such as GPU temperature and CPU temperature, serial number, IP and etc. (Linux only)
 
 ## Installation
 
