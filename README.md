@@ -24,6 +24,14 @@ raspiInfo.getGPUTemperature().then(output => console.log(output));
 // Get CPU temperature
 raspiInfo.getCPUTemperature().then(output => console.log(output));
 // 40.2'C
+
+// Get Serial Number
+raspiInfo.getSerialNumber().then(output => console.log(output));
+// 00000000xxXxXXXX
+
+// Get IP
+raspiInfo.getIP().then(output => console.log(output));
+// 00.000.000.00
 ```
 
 ## License
