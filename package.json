@@ -1,6 +1,6 @@
 {
   "name": "raspberry-info",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A module that turns possible getting information from Raspberry components such as GPU temperature and CPU temperature, etc.",
   "homepage": "",
   "author": {
@@ -71,7 +71,7 @@
     "precommit": "lint-staged",
     "test": "jest"
   },
-  "repository": "Wpdas/raspi-info",
+  "repository": "Wpdas/raspberry-info",
   "jest": {
     "testEnvironment": "node"
   },

@@ -1,17 +1,17 @@
-# raspi-info [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# raspberry-info [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
 > A module that turns possible to know information about some resource from Raspberry sources (Linux only).
 
 ## Installation
 
 ```sh
-$ npm install --save raspi-info
+$ npm install --save raspberry-info
 ```
 
 ## Usage
 
 ```js
-const raspiInfo = require('raspi-info');
+const raspiInfo = require('raspberry-info');
 
 // Get current time and Host
 raspiInfo.getCurrentTimeAndHost().then(output => console.log(output));
@@ -30,9 +30,9 @@ raspiInfo.getCPUTemperature().then(output => console.log(output));
 
 MIT © [Wenderson Pires]()
 
-[npm-image]: https://badge.fury.io/js/raspi-info.svg
-[npm-url]: https://npmjs.org/package/raspi-info
-[travis-image]: https://travis-ci.org/Wpdas/raspi-info.svg?branch=master
-[travis-url]: https://travis-ci.org/Wpdas/raspi-info
-[daviddm-image]: https://david-dm.org/Wpdas/raspi-info.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/Wpdas/raspi-info
+[npm-image]: https://badge.fury.io/js/raspberry-info.svg
+[npm-url]: https://npmjs.org/package/raspberry-info
+[travis-image]: https://travis-ci.org/Wpdas/raspberry-info.svg?branch=master
+[travis-url]: https://travis-ci.org/Wpdas/raspberry-info
+[daviddm-image]: https://david-dm.org/Wpdas/raspberry-info.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/Wpdas/raspberry-info
