@@ -18,12 +18,14 @@ raspiInfo.getCurrentTimeAndHost().then(output => console.log(output));
 // qui set  6 16:50:57 -03 2018 @ host
 
 // Get GPU temperature
+// @param useSignal Default true
 raspiInfo.getGPUTemperature().then(output => console.log(output));
-// 39.7'C
+// 39.7°C
 
 // Get CPU temperature
+// @param useSignal Default true
 raspiInfo.getCPUTemperature().then(output => console.log(output));
-// 40.2'C
+// 40.2°C
 
 // Get Serial Number
 raspiInfo.getSerialNumber().then(output => console.log(output));
@@ -32,6 +34,21 @@ raspiInfo.getSerialNumber().then(output => console.log(output));
 // Get IP
 raspiInfo.getIP().then(output => console.log(output));
 // 00.000.000.00
+
+// Get memory total
+// @param useSignal Default true
+raspiInfo.getMemoryTotal().then(output => console.log(output));
+// 764720 kB
+
+// Get memory free
+// @param useSignal Default true
+raspiInfo.getMemoryFree().then(output => console.log(output));
+// 315036 kB
+
+// Get memory usage
+// @param useSignal Default true
+raspiInfo.getMemoryUsage().then(output => console.log(output));
+// 56%
 ```
 
 ## License
