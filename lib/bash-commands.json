@@ -4,5 +4,6 @@
   "getCPUTemp": "echo $(cat /sys/class/thermal/thermal_zone0/temp)",
   "getSerialNumber":
     "echo $(cat /proc/cpuinfo | grep Serial | cut -d \" \" -f 2)",
-  "getIP": "echo $(curl ipinfo.io/ip)"
+  "getIP": "echo $(curl ipinfo.io/ip)",
+  "memoryInfo": "/proc/meminfo"
 }
