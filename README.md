@@ -45,6 +45,11 @@ raspiInfo.getMemoryTotal().then(output => console.log(output));
 raspiInfo.getMemoryFree().then(output => console.log(output));
 // 315036 kB
 
+// Get memory available
+// @param useSignal Default true
+raspiInfo.getMemoryAvailable().then(output => console.log(output));
+// 200012 kB
+
 // Get memory usage
 // @param useSignal Default true
 raspiInfo.getMemoryUsage().then(output => console.log(output));
